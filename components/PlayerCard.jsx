@@ -1,6 +1,6 @@
 export default function PlayerCard({ name, sport, image, about }) {
   return (
-    <div className="w-72 my-6 p-1 flex flex-col items-start mx-auto bg-blue-400/15 rounded-lg shadow-md max-w-xs border border-blue-200">
+    <div className="shadow-2xl hover:shadow-yellow-200/60 transition-shadow-ease-in duration-500 hover:scale-110 transition-transform duration-500 overflow-auto my-6 p-1 flex flex-col items-start mx-auto bg-blue-400/15 rounded-lg max-w-xs border border-blue-200">
       <img
         src={image}
         alt={name}

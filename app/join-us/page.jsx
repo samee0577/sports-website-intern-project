@@ -1,6 +1,20 @@
+
+import rugby from "@/public/svg/rugby.svg";
 export default function JoinUsPage() {
   return (
     <div className="max-w-xl mx-auto py-12 px-4 text-gray-200">
+      
+      {/* Background Rugby Image */}
+      <div className="absolute top-100 right-10 scale-200 opacity-40 z-0 pointer-events-none">
+        <img
+          src={rugby.src}
+          alt="Background Rugby"
+          className="object-contain"
+          width={400}
+          height={400}
+        />
+      </div>
+
       <h1 className="text-4xl font-bold mb-4 text-blue-300 text-center">Join SportsHub</h1>
       <p className="mb-8 text-center text-gray-300">
         Become a part of our sports community!

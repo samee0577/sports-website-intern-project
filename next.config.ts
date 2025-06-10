@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
       "cdn.nba.com",
       "static.independent.co.uk",
       "www.investopedia.com",
+      "upload.wikimedia.org",
+      "images.unsplash.com",
+      "cdn.prod.website-files.com",
+      "static01.nyt.com",
+      "img.olympics.com",
     ],
   },
 };

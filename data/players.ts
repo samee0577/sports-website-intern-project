@@ -13,6 +13,7 @@ export const players = [
       "10× La Liga titles",
       "All-time top scorer for Barcelona and Argentina",
     ],
+    wikiUrl: "https://en.wikipedia.org/wiki/Lionel_Messi",
   },
   {
     slug: "cristiano-ronaldo",
@@ -29,6 +30,7 @@ export const players = [
       "All-time top scorer for Real Madrid and Portugal",
       "Most goals in UEFA Champions League history",
     ],
+    wikiUrl: "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
   },
   {
     slug: "serena-williams",
@@ -43,6 +45,7 @@ export const players = [
       "319 weeks as world No. 1",
       "Most Grand Slam singles titles in the Open Era",
     ],
+    wikiUrl: "https://en.wikipedia.org/wiki/Serena_Williams",
   },
   {
     slug: "michael-jordan",
@@ -58,6 +61,7 @@ export const players = [
       "2× Olympic gold medals",
       "10× NBA scoring champion",
     ],
+    wikiUrl: "https://en.wikipedia.org/wiki/Michael_Jordan",
   },
   {
     slug: "usain-bolt",
@@ -72,6 +76,7 @@ export const players = [
       "World record holder in 100m and 200m",
       "First athlete to win 100m and 200m at three consecutive Olympics",
     ],
+    wikiUrl: "https://en.wikipedia.org/wiki/Usain_Bolt",
   },
   {
     slug: "roger-federer",
@@ -86,6 +91,7 @@ export const players = [
       "8× Wimbledon champion",
       "Olympic gold and silver medalist",
     ],
+    wikiUrl: "https://en.wikipedia.org/wiki/Roger_Federer",
   },
   {
     slug: "virat-kohli",
@@ -100,6 +106,7 @@ export const players = [
       "Fastest to 8,000, 9,000, 10,000, 11,000, and 12,000 ODI runs",
       "2011 ICC Cricket World Cup winner",
     ],
+    wikiUrl: "https://en.wikipedia.org/wiki/Virat_Kohli",
   },
   {
     slug: "lebron-james",
@@ -116,5 +123,6 @@ export const players = [
       "NBA All-Time Leading Scorer",
       "19× NBA All-Star",
     ],
+    wikiUrl: "https://en.wikipedia.org/wiki/LeBron_James",
   },
 ];
