@@ -26,12 +26,12 @@ export default function Home() {
         <p className="text-gray-300 mb-16">
           Your one-stop destination for all things sports
         </p>
-        <a
+        <Link
           href="/sports"
           className="bg-gradient-to-r from-blue-600/70 to-blue-400/30 border border-blue-500/30 hover:border-blue-400 text-blue-200 font-semibold py-4 px-6 rounded-full hover:shadow-[0_8px_32px_0_rgba(59,130,246,0.35)] transition-shadow duration-200"
         >
           Explore Categories
-        </a>
+        </Link>
       </section>
 
       <section className="text-center mt-12 max-w-2xl mx-auto relative z-10">
@@ -141,7 +141,7 @@ export default function Home() {
       </section>
 
       <section className="text-center mt-16 mb-12 text-gray-400 italic relative z-10">
-        "The only way to prove that you’re a good sport is to lose." — Ernie Banks
+        &ldquo;The only way to prove that you&apos;re a good sport is to lose.&rdquo; — Ernie Banks
       </section>
     </div>
   );

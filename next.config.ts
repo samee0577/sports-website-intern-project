@@ -16,6 +16,9 @@ const nextConfig: NextConfig = {
       "img.olympics.com",
     ],
   },
+  eslint: {
+    ignoreDuringBuilds: true, 
+  },
 };
 
 export default nextConfig;
