@@ -6,7 +6,7 @@ import Car from "@/public/svg/car.svg";
 
 export default function Sports() {
   return (
-    <div className="min-h-screen py-10 px-2 relative">
+    <div className="min-h-screen pb-6 px-2 relative">
       {/* Background Car Image */}
       <div className="absolute bottom-20 right-40 scale-200 opacity-40  z-0 pointer-events-none">
         <Image
